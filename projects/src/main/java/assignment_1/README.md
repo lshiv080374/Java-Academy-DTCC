@@ -63,7 +63,7 @@ IDE, please feel free to use whatever you are comfortable with.
 - Please use Git to **clone** your **forked repository** onto your machine that you plan to work with
 - With IntelliJ, please import this project as a **maven** project
 
-We have a sample Java class: `assignment_1/src/main/java/HelloWorld.java`
+We have a sample Java class: `HelloWorld.java`
 
 ```java
 public class HelloWorld {
