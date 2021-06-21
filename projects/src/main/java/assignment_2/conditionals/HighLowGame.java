@@ -30,6 +30,12 @@ public class HighLowGame {
             }
 
             // Add the conditions to tell the player whether they should guess higher or lower!
+            if(guess > answer) {
+                System.out.println("Guess lower");
+            }
+            else if (guess < answer) {
+                System.out.println("Guess higher");
+            }
 
         }
     }

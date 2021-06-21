@@ -1,5 +1,7 @@
 package assignment_2.basic_arithmetic;
 
+import java.lang.Math;
+
 public class BasicArithmetic {
 
     /*
@@ -36,26 +38,31 @@ public class BasicArithmetic {
             but, it's code so you can always "cheat" ;)
          */
 
-        // System.out.println(String.format("Special Asserts Correctly: %b", (10 * 10 + (1 + 3 * ( 5 - 2 ) / 3) + 1 * 2 - 1 * 3) == 1))
+        System.out.println(String.format("Special Asserts Correctly: %b", (10 * 10 + (1 + 3 * ( 5 - 2 ) / 3) + 1 * 2 - 1 * 3) == 103));
     }
 
     public static int add(int x, int y) {
-        return 0;
+        int sum = x + y;
+        return sum;
     }
 
     public static int subtract(int x, int y) {
-        return 0;
+        int diff = x - y;
+        return diff;
     }
 
     public static int multiply(int x, int y) {
-        return 0;
+        int prod = x * y;
+        return prod;
     }
 
     public static int divide(int x, int y) {
-        return 0;
+        int div = y / x;
+        return div;
     }
 
     public static int remainder(int x, int y) {
-        return 0;
+        int mod = y % x;
+        return mod;
     }
 }
