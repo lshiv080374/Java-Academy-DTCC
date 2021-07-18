@@ -60,7 +60,15 @@ public class DogPound {
                 <data type> <variable name> = <expression>
              */
 
-            throw new Exception("Please implement this function");
+           if ( n.equals(null))
+
+            {
+                throw new Exception("Please implement this function");
+            }
+           else
+           { System.out.println(n);
+               name = n;
+           }
         }
 
         public String speak() {
@@ -68,8 +76,8 @@ public class DogPound {
                 Please finish this method, you want to ensure that your dog speaks
                 when you ask them to.
              */
-
-            return null;
+        String speak = "woof";
+        return speak;
         }
     }
 }
